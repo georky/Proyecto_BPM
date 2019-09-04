@@ -11,8 +11,6 @@
             <af:resource type="javascript" source="/jsLibs/commonBPM.js"/>
              <af:resource type="javascript">
             var tipo;
-             
-              
               function setLogLevel(evt) {
               var selectOneChoice = evt.getSource();
              if( document.getElementById('si1').checked){
@@ -311,7 +309,8 @@
                                                         </af:selectOneRadio>-->
                                         </af:column>
                                     </af:table>
-                                   
+                                    <af:button text="Prueba" id="b4"/>
+                                    <af:button text="Prueba 1" id="b45"/>
                                     <af:resource type="javascript">
                                     function valTabla(eve){
                                     
