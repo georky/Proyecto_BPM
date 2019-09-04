@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.9.14" id="DataBindings"
+             SeparateXMLFiles="false" Package="gui_provedores" ClientType="Generic">
+  <pageMap>
+    <page path="/IngresoProvedores_Form.jspx" usageId="gui_provedores_IngresoProvedores_FormPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="gui_provedores_IngresoProvedores_FormPageDef"
+          path="gui_provedores.pageDefs.IngresoProvedores_FormPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="GUI_PROVEDORES_IngresoProvedores" path="gui_provedores.GUI_PROVEDORES_IngresoProvedores"/>
+  </dataControlUsages>
+</Application>

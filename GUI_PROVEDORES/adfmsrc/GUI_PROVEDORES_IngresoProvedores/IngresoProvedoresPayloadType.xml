@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="12.2.1.9.14" id="IngresoProvedoresPayloadType"
+          Package="GUI_PROVEDORES_IngresoProvedores"
+          BeanClass="GUI_PROVEDORES_IngresoProvedores.IngresoProvedoresPayloadType" isJavaBased="false">
+  <AccessorAttribute id="BOProvedores" IsCollection="true" BeanClass="GUI_PROVEDORES_IngresoProvedores.BOProvedoresType"
+                     CollectionBeanClass="GUI_PROVEDORES_IngresoProvedores.BOProvedoresType_BOProvedores_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="BO Provedores"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="BOProvedores"/>
+      <Property Name="targetNamespace" Value="http://xmlns.oracle.com/bpm/bpmobject/Module/BOProvedores"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>
