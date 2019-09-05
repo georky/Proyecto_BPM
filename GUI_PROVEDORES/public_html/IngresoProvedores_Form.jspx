@@ -261,50 +261,7 @@
                                                disabled="#{!bindings.CreateInsert3.enabled}" id="b2"/>
                                     <af:button actionListener="#{bindings.Delete3.execute}" text="Borrar"
                                                disabled="#{!bindings.Delete3.enabled}" id="b3"/>
-                                    <af:table value="#{bindings.BOProvedores.collectionModel}" var="row"
-                                              rows="#{bindings.BOProvedores.rangeSize}"
-                                              emptyText="#{bindings.BOProvedores.viewable ? 'No data to display.' : 'Access Denied.'}"
-                                              rowBandingInterval="0"
-                                              selectedRowKeys="#{bindings.BOProvedores.collectionModel.selectedRow}"
-                                              rowSelection="multiple" fetchSize="#{bindings.BOProvedores.rangeSize}"
-                                              id="t3" partialTriggers="::b2 ::b3">
-                                        <af:column headerText="#{bindings.BOProvedores.hints.canntidad.label}" id="c1">
-                                            <af:inputText value="#{row.bindings.canntidad.inputValue}"
-                                                          label="#{bindings.BOProvedores.hints.canntidad.label}"
-                                                          required="#{bindings.BOProvedores.hints.canntidad.mandatory}"
-                                                          columns="#{bindings.BOProvedores.hints.canntidad.displayWidth}"
-                                                          maximumLength="#{bindings.BOProvedores.hints.canntidad.precision}"
-                                                          shortDesc="#{bindings.BOProvedores.hints.canntidad.tooltip}"
-                                                          id="it7">
-                                                <f:validator binding="#{row.bindings.canntidad.validator}"/>
-                                                <af:convertNumber groupingUsed="false"
-                                                                  pattern="#{bindings.BOProvedores.hints.canntidad.format}"/>
-                                            </af:inputText>
-                                        </af:column>
-                                        <af:column headerText="#{bindings.BOProvedores.hints.decripcion.label}" id="c2">
-                                            <af:inputText value="#{row.bindings.decripcion.inputValue}"
-                                                          label="#{bindings.BOProvedores.hints.decripcion.label}"
-                                                          required="#{bindings.BOProvedores.hints.decripcion.mandatory}"
-                                                          columns="#{bindings.BOProvedores.hints.decripcion.displayWidth}"
-                                                          maximumLength="#{bindings.BOProvedores.hints.decripcion.precision}"
-                                                          shortDesc="#{bindings.BOProvedores.hints.decripcion.tooltip}"
-                                                          id="it8">
-                                                <f:validator binding="#{row.bindings.decripcion.validator}"/>
-                                            </af:inputText>
-                                        </af:column>
-                                        <af:column headerText="#{bindings.BOProvedores.hints.aprovacion.label}" id="c3" width="111">
-                                            <af:selectOneRadio value="#{row.bindings.aprovacion.inputValue}"
-                                                               label="#{row.bindings.aprovacion.label}"
-                                                               required="#{bindings.BOProvedores.hints.aprovacion.mandatory}"
-                                                               shortDesc="#{bindings.BOProvedores.hints.aprovacion.tooltip}"
-                                                               id="sor1" autoSubmit="true">
-                                                <f:selectItems value="#{row.bindings.aprovacion.items}" id="si8"/>
-                                                  <af:clientListener method="valTabla" type="click"/>
-                                                <f:validator binding="#{row.bindings.aprovacion.validator}"/>
-                                            </af:selectOneRadio>
-                                        
-                                        </af:column>
-                                    </af:table>
+                              
                                    
                                    
                                 </af:panelFormLayout>
