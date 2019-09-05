@@ -302,13 +302,7 @@
                                                   <af:clientListener method="valTabla" type="click"/>
                                                 <f:validator binding="#{row.bindings.aprovacion.validator}"/>
                                             </af:selectOneRadio>
-                                            <!-- <af:selectOneRadio value="#{row.bindings.aprovacion.inputValue}"
-                                                               label="#{row.bindings.aprovacion.label}"
-                                                                                                                                  id="sor2">
-                                                           <f:selectItem itemLabel="SI" itemValue="SI" id="si1"/>
-                                                          <f:selectItem itemLabel="NO" itemValue="NO" id="si4"/>
-                                                         
-                                                        </af:selectOneRadio>-->
+                                        
                                         </af:column>
                                     </af:table>
                                    
