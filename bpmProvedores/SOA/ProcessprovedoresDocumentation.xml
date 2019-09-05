@@ -12,6 +12,14 @@
                <description locale="en"></description>
             </descriptions>
          </topicDocumentation>
+         <topicDocumentation name="ACT26605706295480">
+            <labels>
+               <label locale="en">ventana</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
          <topicDocumentation name="EVT26543110546648">
             <labels>
                <label locale="en">Start</label>
@@ -24,6 +32,7 @@
          </topicDocumentation>
          <topicDocumentation name="sf26543110546732"/>
          <topicDocumentation name="sf26543110547094"/>
+         <topicDocumentation name="sf26605712799674"/>
       </topicDocumentations>
    </component>
 </processDocumentation>
