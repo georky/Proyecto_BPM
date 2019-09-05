@@ -306,12 +306,7 @@
                                         </af:column>
                                     </af:table>
                                    
-                                    <af:resource type="javascript">
-                                    function valTabla(eve){
-                                    
-                                    
-                                    }
-                                    </af:resource>
+                                   
                                 </af:panelFormLayout>
                             </af:panelGroupLayout>
                         </af:panelGroupLayout>
