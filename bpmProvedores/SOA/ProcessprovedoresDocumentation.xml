@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?oracleBPM version="12.1.3" fileRevision="20120601"?>
 <processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
-   <component name="Processprovedores">
-      <topicDocumentations>
-         <topicDocumentation name="Processprovedores"/>
-         <topicDocumentation name="ACT26543110546872">
-            <labels>
-               <label locale="en">UserTask</label>
-            </labels>
-            <descriptions>
-               <description locale="en"></description>
-            </descriptions>
-         </topicDocumentation>
-         <topicDocumentation name="ACT26605706295480">
-            <labels>
-               <label locale="en">ventana</label>
-            </labels>
-            <descriptions>
-               <description locale="en"></description>
-            </descriptions>
-         </topicDocumentation>
-         <topicDocumentation name="EVT26543110546648">
-            <labels>
-               <label locale="en">Start</label>
-            </labels>
-         </topicDocumentation>
-         <topicDocumentation name="EVT26543110546651">
-            <labels>
-               <label locale="en">End</label>
-            </labels>
-         </topicDocumentation>
-         <topicDocumentation name="ACT26605838906962">
-            <labels>
-               <label locale="en">ventana2</label>
-            </labels>
-            <descriptions>
-               <description locale="en"></description>
-            </descriptions>
-         </topicDocumentation>
-         <topicDocumentation name="sf26543110546732"/>
-         <topicDocumentation name="sf26543110547094"/>
-         <topicDocumentation name="sf26605712799674"/>
-
-         <topicDocumentation name="sf26605844139691"/>
-
-      </topicDocumentations>
-   </component>
+    <component name="Processprovedores">
+        <topicDocumentations>
+            <topicDocumentation name="Processprovedores"/>
+            <topicDocumentation name="ACT26543110546872">
+                <labels>
+                    <label locale="en">UserTask</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT26605706295480">
+                <labels>
+                    <label locale="en">ventana</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT26605706295480">
+                <labels>
+                    <label locale="en">ventana</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EVT26543110546648">
+                <labels>
+                    <label locale="en">Start</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="EVT26543110546651">
+                <labels>
+                    <label locale="en">End</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="ACT26605838906962">
+                <labels>
+                    <label locale="en">ventana2</label>
+                    <topicDocumentation name="ACT26606071036246">
+                        <labels>
+                            <label locale="en">ventana5</label>
+                        </labels>
+                        <descriptions>
+                            <description locale="en"></description>
+                        </descriptions>
+                    </topicDocumentation>
+                    <topicDocumentation name="sf26543110546732"/>
+                    <topicDocumentation name="sf26543110547094"/>
+                    <topicDocumentation name="sf26605712799674"/>
+                    <topicDocumentation name="sf26605844139691"/>
+                    <topicDocumentation name="sf26606073986336"/>
+                </labels>
+            </topicDocumentation>
+        </topicDocumentations>
+    </component>
 </processDocumentation>
