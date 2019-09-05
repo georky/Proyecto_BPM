@@ -20,6 +20,14 @@
                <description locale="en"></description>
             </descriptions>
          </topicDocumentation>
+         <topicDocumentation name="ACT26606071036246">
+            <labels>
+               <label locale="en">ventana5</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
          <topicDocumentation name="EVT26543110546648">
             <labels>
                <label locale="en">Start</label>
@@ -30,9 +38,17 @@
                <label locale="en">End</label>
             </labels>
          </topicDocumentation>
-         <topicDocumentation name="ACT26606071036246">
+         <topicDocumentation name="GTW26611997445628">
             <labels>
-               <label locale="en">ventana5</label>
+               <label locale="en">continuar</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT26611998670046">
+            <labels>
+               <label locale="en">IngresoCliente</label>
             </labels>
             <descriptions>
                <description locale="en"></description>
@@ -42,6 +58,16 @@
          <topicDocumentation name="sf26543110547094"/>
          <topicDocumentation name="sf26605712799674"/>
          <topicDocumentation name="sf26606073986336"/>
+         <topicDocumentation name="sf26611998213090"/>
+         <topicDocumentation name="sf26612000087452">
+            <labels>
+               <label locale="en"></label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="sf2661200057879"/>
       </topicDocumentations>
    </component>
 </processDocumentation>
