@@ -251,9 +251,7 @@
                                     </af:inputText>
                                 </af:panelFormLayout>
                             </af:panelGroupLayout>
-                            <!--***************************************
-                             Tabla
-                            ****************************************-->
+                           
                             <af:panelGroupLayout layout="horizontal" inlineStyle="padding: 5px;width:95%;" valign="top"
                                                  id="pgl4">
                                                    <af:panelFormLayout id="colregionPanel1_10" inlineStyle="padding: 5px;">
